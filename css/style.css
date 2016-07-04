@@ -1,0 +1,106 @@
+body{
+	background:#1c1b1b;
+	color:#666;
+	font-family:"Veranda", sans-serif;
+}
+
+h1{
+	text-align:center;
+	color:#fff;
+	text-decoration: underline;
+	
+}
+
+h2{
+	text-align:center;
+	color:#fff;
+}
+
+/* Moves reset down to clear both floats */
+.clearfix{
+	clear:both;
+}
+
+.o{
+	color:green !important;
+}
+
+.x{
+	color:red !important;
+}
+
+/* tic tac toe board */
+#container{
+	width:350px;
+	overflow:hidden;
+	float:left;
+	margin:40px auto;
+	margin-left:20px;
+	background:#778899;
+	padding-bottom:40px;
+	border-radius:10px;
+	text-align: center;
+}
+
+/*Scoreboard */
+#container2{
+	width: 200px;
+	float:left;
+	margin:40px 40px 40px 40px;
+	background:#884444;
+	padding-bottom: 20px;
+	border-radius: 20px;
+}
+
+#board li{
+	float:left;
+	margin:10px;
+	height:70px;
+	width:70px;
+	font-size:55px;
+	background:#333;
+	color:#ccc;
+	list-style:none;
+	text-align:center;
+	border-radius:5px;
+}
+
+#board li:hover,#reset:hover{
+	cursor:pointer;
+	background:#000;
+}
+
+#reset{
+	border:0;
+	/*background-image: url(../images/reset.jpg);*/
+	background:#333;
+	color:#000;
+	width:70%;
+	padding:15px;
+	border-radius:5px;
+	outline-style: none;
+}
+
+#score_x{
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color:666;
+	color:white;
+	font-size:20px;
+}
+
+#score_o{
+	text-align: left;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:666;
+	color:white;
+	font-size:20px;
+}
+
+footer{
+	display:block;
+	text-align:center;
+	padding-top:10px;
+}
